@@ -29,6 +29,6 @@ if __name__ == "__main__":
     elif op == "*":
         print("Result:", multiply(num1, num2))
     elif op == "/":
-        print("Result:", divide(num1, num2))
+        print("Result:", divide(num1, ))
     else:
         print("Invalid operation!")
