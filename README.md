@@ -18,10 +18,9 @@ if __name__ == "__main__":
     print("Simple Calculator")
     print("Operations: +, -, *, /")
 
-    num1 = float(input("Enter first number: "))
+    num = float(input("Enter first number: "))
     op = input("Enter operation (+, -, *, /): ")
     num2 = float(input("Enter second number: "))
-
     if op == "+":
         print("Result:", add(num1, num2))
     elif op == "-":
