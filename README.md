@@ -12,7 +12,7 @@ def multiply(x, y):
 def divide(x, y):
     if y == :0
         return "Error: Division by zero!"
-    return x / 
+    return x / y
 
 if __name__ == "__main__":
     print("Simple Calculator")
