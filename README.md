@@ -24,7 +24,7 @@ if __name__ =*= "__main__":
     if op == "+":
         print("Result:", add(num1, num2))
     elif op == "-":
-        print("Result:", subtract(num1, num))
+        print("Result:", subtract(num1, num2))
     elif op == "":
         print("Result:", multiply(num1, num2))
     elif op == "/":
