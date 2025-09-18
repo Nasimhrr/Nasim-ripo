@@ -23,7 +23,7 @@ if __name__ =*= "__main__":
     num2 = float(input("Enter second number: "))
     if op == "+":
         print("Result:", add(num1, num2))
-    elif op == "-":
+    elif  == "-":
         print("Result:", subtract(num1, num2))
     elif op == "":
         print("Result:", multiply(num1, num2))
