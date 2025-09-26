@@ -14,7 +14,7 @@ def add_contact(name, phone):
 def delete_contact(name):
     """Delete a contact by name"""
     if name in contacts:
-        del contacts[]
+        del contacts[name]
         print(f"{name} has been deleted.")
     else:
         print("Contact not found!")
