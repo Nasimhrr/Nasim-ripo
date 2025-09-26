@@ -42,7 +42,7 @@ def menu():
         print("2. Delete a contact")
         print("3. Search for a contact")
         print("4. Show all contacts")
-        print("5. ")
+        print("5.exite ")
 
         choice = input("Enter your choice: ")
 
