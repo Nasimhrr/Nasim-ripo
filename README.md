@@ -46,7 +46,7 @@ def menu():
 
         choice = input("Enter your choice: ")
 
-        if choice == "":
+        if choice == "1":
             name = input("Enter name: ")
             phone = input("Enter phone number: ")
             add_contact(name, phone)
