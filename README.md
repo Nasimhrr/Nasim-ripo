@@ -40,7 +40,7 @@ def menu():
         print("\n=== Simple Contact Book ===")
         print("1. Add a contact")
         print("2. Delete a contact")
-        print("3. Search for a contact")
+        print("3. ")
         print("4. Show all contacts")
         print("5.exite ")
 
