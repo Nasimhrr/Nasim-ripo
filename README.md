@@ -37,7 +37,7 @@ def show_all():
 
 def menu():
     while True:
-        print("\n=== Simple Contact  ===")
+        print("\n=== Simple Contact book ===")
         print("1. Add a contact")
         print("2. Delete a contact")
         print("3. Search for a contact")
