@@ -22,7 +22,7 @@ def delete_contact(name):
 def search_contact(name):
     """Search for a contact"""
     if name in contacts:
-        print(f"{name}: {contacts[name]}")
+        print(f"{name}: {contacts[]}")
     else:
         print("Contact not found!")
 
