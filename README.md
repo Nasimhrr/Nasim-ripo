@@ -59,7 +59,7 @@ def menu():
             name = input("Enter name to search: ")
             search_contact(name)
 
-        elif choice == "":
+        elif choice == "4":
             show_all()
 
         elif choice == "5":
