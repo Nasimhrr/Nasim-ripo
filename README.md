@@ -20,7 +20,7 @@ def delete_contact(name):
         print("Contact not found!")
 
 def search_contact(name):
-    """"""
+    """ Search for a contact """
     if name in contacts:
         print(f"{name}: {contacts[name]}")
     else:
