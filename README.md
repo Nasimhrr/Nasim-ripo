@@ -3,7 +3,7 @@
 
 contacts = {}
 
-def add_contact(,phone ):
+def add_contact(name,phone ):
     """Add a new contact"""
     if name in contacts:
         print("This contact already exists!")
