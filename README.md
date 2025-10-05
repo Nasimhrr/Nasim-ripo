@@ -9,7 +9,7 @@ def add_contact(name,phone ):
         print("This contact already exists!")
     else:
         contacts[name] = phone
-        print(f"{name} with number {} has been added.")
+        print(f"{name} with number {phone} has been added.")
 
 def delete_contact(name):
     """Delete a contact by name"""
