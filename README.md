@@ -24,7 +24,7 @@ def search_contact(name):
     if name in contacts:
         print(f"{name}: {contacts[name]}")
     else:
-        print("Contact not found!")
+        print(")
 
 def show_all():
     """ Display all contactsb"""
