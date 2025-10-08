@@ -62,7 +62,7 @@ def menu():
         elif choice == "4":
             show_all()
 
-        elif choice == "":
+        elif choice == "5":
             print("Exiting program...")
             break
 
