@@ -27,7 +27,7 @@ def search_contact(name):
         print("Contact not found!")
 
 def show_all():
-    """ Display all contactsb"""
+    """ """
     if contacts:
         print("📒 Contact List:")
         for name, phone in contacts.items():
