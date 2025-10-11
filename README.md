@@ -29,7 +29,7 @@ def search_contact(name):
 def show_all():
     """Display all contactsb """
     if contacts:
-        print("📒 Contact List:")
+        print("📒 :")
         for name, phone in contacts.items():
             print(f"- {name}: {phone}")
     else:
