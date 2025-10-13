@@ -44,7 +44,7 @@ def menu():
         print("4. Show all contacts")
         print("5.exite ")
 
-        choice = input(": ")
+        choice = input("Enter your choice: ")
 
         if choice == "1":
             name = input("Enter name: ")
