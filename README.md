@@ -8,7 +8,7 @@ def add_contact(name,phone ):
     if name in contacts:
         print("This contact already exists!")
     else:
-        contacts[name] = phone
+        contacts[name] =
         print(f"{name} with number {phone} has been added.")
 
 def delete_contact(name):
