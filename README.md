@@ -45,7 +45,7 @@ def menu():
         print("5.exite ")
 
         choice = input("Enter your choice: ")
-
+The contact book is empty
         if choice == "1":
             name = input("Enter name: ")
             phone = input("Enter phone number: ")
