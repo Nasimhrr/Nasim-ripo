@@ -33,7 +33,7 @@ def show_all():
         for name, phone in contacts.items():
             print(f"- {name}: {phone}")
     else:
-        print("The contact book is empty.")
+        print(".")
 
 def menu():
     while True:
