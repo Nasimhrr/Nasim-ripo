@@ -35,7 +35,7 @@ Undo the last run (uses the log stored next to --out)
 
 python smart_file_organizer.py --undo --out ~/Downloads/Sorted
 
-:
+Notes:
 
 Only regular files are moved; directories are ignored.
 
