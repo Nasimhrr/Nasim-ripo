@@ -41,7 +41,7 @@ Only regular files are moved; directories are ignored.
 
 Hidden files are ignored by default (use --include-hidden to include them).
 
-The log file is stored at <out>/.organizer_log.json
+The log file is stored at <out>/.organizer_log.
 
 
 Author: ruthlessly practical. """ import argparse import hashlib import json import os from dataclasses import dataclass from datetime import datetime from pathlib import Path from typing import Dict, List, Optional, Tuple
