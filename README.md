@@ -8,7 +8,7 @@ Creates date buckets (YYYY/MM) if you enable --by-date
 
 Dry-run mode to preview actions
 
-Undo last run from a JSON 
+Undo last run from a JSON log
 
 Collision-safe moves (keeps both files)
 
