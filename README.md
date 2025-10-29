@@ -29,7 +29,7 @@ python smart_file_organizer.py ~/Downloads --by-date
 
 Custom output root (default is the same folder)
 
-python smart_file_organizer.py ~/Downloads --out ~/Downloads/Sorted
+python smart_file_organizer.py ~/Downloads --out 
 
 Undo the last run (uses the log stored next to --out)
 
