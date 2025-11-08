@@ -31,7 +31,7 @@ Custom output root (default is the same folder)
 
 python smart_file_organizer.py ~/Downloads --out ~/Downloads/Sorted
 
-Undo the last run (uses the log stored next to --out)
+Undo the last run (uses the log stored next to --)
 
 python smart_file_organizer.py --undo --out ~/Downloads/Sorted
 
