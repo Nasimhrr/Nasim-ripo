@@ -37,7 +37,7 @@ python smart_file_organizer.py --undo --out ~/Downloads/Sorted
 
 Notes:
 
-Only regular files are moved; .
+Only regular files are moved; directories are ignored.
 
 Hidden files are ignored by default (use --include-hidden to include them).
 
