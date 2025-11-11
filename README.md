@@ -45,7 +45,7 @@ The log file is stored at <out>/.organizer_log.json
 
 Author: ruthlessly practical. """ import argparse import hashlib import json import os from dataclasses import dataclass from datetime import datetime from pathlib import Path from typing import Dict, List, Optional, Tuple
 
-LOG_NAME = "."
+LOG_NAME = ".organizer_log.json"
 
 DEFAULT_CATEGORIES: Dict[str, str] = { # Images ".jpg": "Pictures", ".jpeg": "Pictures", ".png": "Pictures", ".gif": "Pictures", ".webp": "Pictures", ".heic": "Pictures", ".svg": "Pictures", ".bmp": "Pictures", # Video ".mp4": "Videos", ".mov": "Videos", ".avi": "Videos", ".mkv": "Videos", ".webm": "Videos", # Audio ".mp3": "Audio", ".wav": "Audio", ".m4a": "Audio", ".flac": "Audio", ".ogg": "Audio", # Documents ".pdf": "Documents", ".doc": "Documents", ".docx": "Documents", ".xls": "Documents", ".xlsx": "Documents", ".ppt": "Documents", ".pptx": "Documents", ".txt": "Documents", ".md": "Documents", # Archives ".zip": "Archives", ".rar": "Archives", ".7z": "Archives", ".tar": "Archives", ".gz": "Archives", # Code ".py": "Code", ".js": "Code", ".ts": "Code", ".json": "Code", ".html": "Code", ".css": "Code", ".java": "Code", ".c": "Code", ".cpp": "Code", ".cs": "Code", ".go": "Code", ".rs": "Code", # Misc ".dmg": "Installers", ".pkg": "Installers", ".exe": "Installers", ".msi": "Installers", }
 
