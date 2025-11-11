@@ -23,8 +23,7 @@ Actually organize by type only
 
 python smart_file_organizer.py ~/Downloads
 
-Organize by type and date (e.g., Pictures/2025/10)
-
+Organize by type and date 
 python smart_file_organizer.py ~/Downloads --by-date
 
 Custom output root (default is the same folder)
