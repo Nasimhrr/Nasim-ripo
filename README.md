@@ -78,7 +78,7 @@ def main(): parser = argparse.ArgumentParser(description="Organize files by type
 args = parser.parse_args()
 
 if args.undo:
-    out_root = .expanduser().resolve()
+    out_root =Path(args.out or ".") .expanduser().resolve()
     undo_last(out_root)
     return
 
