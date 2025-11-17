@@ -4,7 +4,7 @@ One-shot, dependency-free file organizer for messy folders.
 
 Groups files into categories by extension (configurable)
 
-Creates date buckets (YYYY/MM) if you enable --by-date
+Creates date buckets (YYYY/MM) if you enable --by-
 
 Dry-run mode to preview actions
 
