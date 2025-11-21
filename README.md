@@ -21,7 +21,7 @@ python smart_file_organizer.py ~/Downloads --dry-run
 
 Actually organize by type only
 
-python smart_file_organizer.py ~/
+python smart_file_organizer.py ~/Downloads
 
 Organize by type and date 
 python smart_file_organizer.py ~/Downloads --by-date
