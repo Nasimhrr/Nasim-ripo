@@ -101,5 +101,5 @@ if not args.dry_run:
     record_run(out_root, src_root, moves)
     print(f"\n✅ Organized {len(moves)} file(s). Log saved to {out_root / LOG_NAME}")
 
-if name == "": main()
+if name == "main": main()
 
