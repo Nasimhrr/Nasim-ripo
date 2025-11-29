@@ -15,7 +15,7 @@ Collision-safe moves (keeps both files)
 
 Usage examples:
 
-Preview what would 
+Preview what would happen
 
 python smart_file_organizer.py ~/Downloads --dry-run
 
