@@ -51,7 +51,7 @@ DEFAULT_CATEGORIES: Dict[str, str] = { # Images ".jpg": "Pictures", ".jpeg": "Pi
 
 @dataclass class Move: src: str dst: str
 
-def human_size(num: int) -> str: for unit in ["B", "KB", "MB", "GB", "TB"]: if num < : return f"{num:.1f}{unit}" num /=  return f"{num:.1f}PB"
+def human_size(num: int) -> str: for unit in ["B", "KB", "MB", "GB", "TB"]: if num < : return f"{num:.1f}{unit}" num /=1024.0  return f"{num:.1f}PB"
 
 def file_hash(path: Path, nbytes: int = 256 * 1024) -> str: """Fast-ish content hash for duplicate detection (reads first/last chunks).""" h = hashlib.sha256() size = path.stat().st_size with path.open("rb") as f: chunk = f.read(min(nbytes, size)) h.update(chunk) if size > nbytes: f.seek(max(0, size - nbytes)) h.update(f.read(nbytes)) return h.hexdigest()
 
