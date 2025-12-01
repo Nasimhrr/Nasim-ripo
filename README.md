@@ -38,7 +38,7 @@ Notes:
 
 Only regular files are moved; directories are ignored.
 
-Hidden files are ignored by default (use --include-).
+Hidden files are ignored by default (use --include-hidden to include them).
 
 The log file is stored at <out>/.organizer_log.json
 
