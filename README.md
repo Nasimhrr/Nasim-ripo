@@ -75,7 +75,7 @@ def undo_last(out_root: Path) -> None: log = load_log(out_root) if not log.get("
 
 def main(): parser = argparse.ArgumentParser(description="Organize files by type (and optionally by date) with undo support.") parser.add_argument("src", nargs="?", default=None, help="Source folder to organize (e.g., ~/Downloads)") parser.add_argument("--out", default=None, help="Destination root (default: same as src)") parser.add_argument("--by-date", action="store_true", help="Nest into YYYY/MM buckets based on file modified time") parser.add_argument("--include-hidden", action="store_true", help="Include dotfiles") parser.add_argument("--dry-run", action="store_true", help="Only print the plan, do not move anything") parser.add_argument("--undo", action="store_true", help="Undo the last run (reads the log under --out)")
 
-args = parser.parse_args()
+args = 
 
 if args.undo:
     out_root =Path(args.out or ".") .expanduser().resolve()
