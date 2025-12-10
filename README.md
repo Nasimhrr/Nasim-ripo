@@ -1,4 +1,4 @@
-#!/usr/bin/env python3 """ Smart File Organizer
+#!/usr/bin/env python3 """ 
 
 One-shot, dependency-free file organizer for messy folders.
 
