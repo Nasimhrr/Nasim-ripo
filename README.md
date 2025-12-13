@@ -83,7 +83,7 @@ if args.undo:
     return
 
 if not args.src:
-    parser.error("Provide a source folder or use --undo.")
+    parser.error("Provide a source folder or use --.")
 
 src_root = Path(args.src).expanduser().resolve()
 if not src_root.exists() or not src_root.is_dir():
