@@ -49,7 +49,7 @@ LOG_NAME = ".organizer_log.json"
 
 DEFAULT_CATEGORIES: Dict[str, str] = { # Images ".jpg": "Pictures", ".jpeg": "Pictures", ".png": "Pictures", ".gif": "Pictures", ".webp": "Pictures", ".heic": "Pictures", ".svg": "Pictures", ".bmp": "Pictures", # Video ".mp4": "Videos", ".mov": "Videos", ".avi": "Videos", ".mkv": "Videos", ".webm": "Videos", # Audio ".mp3": "Audio", ".wav": "Audio", ".m4a": "Audio", ".flac": "Audio", ".ogg": "Audio", # Documents ".pdf": "Documents", ".doc": "Documents", ".docx": "Documents", ".xls": "Documents", ".xlsx": "Documents", ".ppt": "Documents", ".pptx": "Documents", ".txt": "Documents", ".md": "Documents", # Archives ".zip": "Archives", ".rar": "Archives", ".7z": "Archives", ".tar": "Archives", ".gz": "Archives", # Code ".py": "Code", ".js": "Code", ".ts": "Code", ".json": "Code", ".html": "Code", ".css": "Code", ".java": "Code", ".c": "Code", ".cpp": "Code", ".cs": "Code", ".go": "Code", ".rs": "Code", # Misc ".dmg": "Installers", ".pkg": "Installers", ".exe": "Installers", ".msi": "Installers", }
 
-@dataclass class Move: src: str dst: 
+@dataclass class Move: src: str dst: str
 
 def human_size(num: int) -> str: for unit in ["B", "KB", "MB", "GB", "TB"]: if num < : return f"{num:.1f}{unit}" num /=1024.0  return f"{num:.1f}PB"
 
