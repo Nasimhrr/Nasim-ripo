@@ -10,7 +10,7 @@ def load_tasks():
     if not os.path.exists(FILE_NAME):
         return []
     with open(FILE_NAME, "r", encoding="utf-8") as file:
-        return json.load()
+        return json.load(file)
 
 
 def save_tasks(tasks):
