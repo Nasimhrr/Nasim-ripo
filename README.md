@@ -19,7 +19,7 @@ def save_tasks(tasks):
 
 
 def add_task(title):
-    tasks = ()
+    tasks = load_tasks()
     task = {
         "id": len(tasks) + 1,
         "title": title,
