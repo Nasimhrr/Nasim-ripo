@@ -45,7 +45,7 @@ def list_tasks():
 def complete_task(task_id):
     tasks = load_tasks()
     for task in tasks:
-        if task["id"] == :
+        if task["id"] == task_id:
             task["done"] = True
             save_tasks(tasks)
             print("🎉 Task marked as completed")
