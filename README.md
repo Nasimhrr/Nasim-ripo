@@ -38,7 +38,7 @@ def list_tasks():
         return
 
     for task in tasks:
-        status = "✔️" if task["done"] else "❌"
+        status = "✔️" if task["done"]  "❌"
         print(f'{task["id"]}. {task["title"]} | {status} | {task["created_at"]}')
 
 
